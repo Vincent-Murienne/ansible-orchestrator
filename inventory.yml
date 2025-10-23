@@ -1,0 +1,9 @@
+hosts:
+  webserver:
+    # ssh_address: 172.20.10.2
+    # ssh_port: 22
+    ssh_address: 127.0.0.1
+    ssh_port: 2222
+    identifier:
+      ssh_user: vmurienne
+      ssh_password: vmurienne
