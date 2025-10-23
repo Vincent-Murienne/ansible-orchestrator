@@ -1,7 +1,19 @@
 # ansible-orchestrator
 
-VM : Debian
-Connection SSH / Protocole TCP : NAT + redirection de port 
-(port hôte : 2222, port invité : 22)
+**Description :**  
+Orchestrateur simple pour exécuter des tâches sur une VM Debian.
+---
 
-Commande à exécuter : python execute_tasks.py -f todos.yml -i inventory.yml  
+## VM
+
+- **OS :** Debian
+- **Connexion SSH / Protocole TCP :** NAT + redirection de port
+  - Port hôte : `2222`
+  - Port invité : `22`
+
+---
+
+## Commande à exécuter
+
+```bash
+python main.py -f todos.yml -i inventory.yml
